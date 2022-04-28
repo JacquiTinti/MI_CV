@@ -1,0 +1,99 @@
+/*-------LAYOUT------*/
+.main-container {
+	display: flex;
+	width: 1250px;
+}
+/*-------ASIDE-------*/
+aside {
+	background-color: #102A57;
+	width: 40%;
+	margin-right: 5%;
+}
+aside * {
+	color: white;
+}
+aside h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+aside section h2:first-child{
+	border-bottom: 2px solid white;
+}
+#profile-pic img {
+	border-radius: 50%;
+}
+
+/*---------GENERAL-------*/
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+/*-------MAIN-------*/
+main section > h2 {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.hero {
+	background-color: #1F4FA3;
+	padding: 15% 0;
+	text-align: center;
+}
+.hero h2 {
+	color:  white;
+	border-top: 2px solid white;
+	letter-spacing: 5px;
+}
+.hero h1 {
+	letter-spacing: 3px;
+}
+.sobre p {
+	background-color: #5EA3DB;
+}
+.sobre {
+	line-height: 2em;
+}
+.sobre h2 {
+	background-color: white;
+}
+article h3 {
+	font-weight: bold;
+}
+/*--------REFERNCIAS-------*/
+.referencias {
+	display: flex;
+	background-color: #5EA3DB;
+}
+.referencias {
+	width: 100%;
+	text-align: center;
+}
+/* DL */
+dt,
+dd {
+	line-height: 1.5em;
+}
+dt {
+	clear: left;
+	width: 30%;
+	float: left;
+	border-top: 1px solid white;
+}
+dd {
+	clear: right;
+	width: 50%;
+	float: left;
+	margin: 0;
+	border-top: 1px solid white;
+}
+.clear {
+	clear: both;
+}
+dt: last-of-type,
+dd: last-of-type {
+	border-bottom: 1px solid white;
+}
